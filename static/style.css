@@ -148,6 +148,7 @@ body {
   font-weight: 600;
   letter-spacing: .22em;
   margin: 0;
+  white-space: nowrap;
   display: flex;
   align-items: center;
   gap: 9px;
@@ -518,6 +519,7 @@ kbd {
   font-size: 13px;
   letter-spacing: .22em;
   margin: 0;
+  white-space: nowrap;
   display: flex; align-items: center; gap: 8px;
 }
 .edits-head h3 i { color: var(--shu); }

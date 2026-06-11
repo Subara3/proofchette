@@ -53,9 +53,9 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         ctx = browser.new_context(
-            viewport={"width": 1280, "height": 800},
+            viewport={"width": 1380, "height": 940},
             record_video_dir="video",
-            record_video_size={"width": 1280, "height": 800},
+            record_video_size={"width": 1380, "height": 940},
         )
         page = ctx.new_page()
         page.goto(BASE)
