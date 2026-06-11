@@ -1,0 +1,17 @@
+# 環境
+.venv/
+__pycache__/
+*.pyc
+
+# 秘密鍵
+.env
+
+# 原稿データ（ローカルのみ）
+manuscripts/
+
+# 実験の生成物（make_audio.ps1 で再生成できる）
+experiments/audio/
+experiments/video/
+
+# Zenn記事ドラフト（公開はZenn側で）
+zenn-article.md

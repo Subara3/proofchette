@@ -1,0 +1,207 @@
+{
+  "n": 20,
+  "hit_before": 2,
+  "hit_after": 20,
+  "rows": [
+    {
+      "category": "創作固有名詞",
+      "written": "蒼月寺",
+      "reading": "そうげつじ",
+      "sentence": "蒼月寺さんの台詞を直してください。",
+      "before": "月次さんのセリフを直してください。",
+      "before_hit": false,
+      "after": "蒼月寺さんのセリフを直してください。",
+      "after_hit": true
+    },
+    {
+      "category": "創作固有名詞",
+      "written": "玲洲",
+      "reading": "れいす",
+      "sentence": "主人公の玲洲が扉を開ける場面です。",
+      "before": "主人公のレースが扉を開ける場面です。",
+      "before_hit": false,
+      "after": "主人公の玲洲が扉を開ける場面です。",
+      "after_hit": true
+    },
+    {
+      "category": "創作固有名詞",
+      "written": "風霞町",
+      "reading": "かざがすみちょう",
+      "sentence": "舞台は風霞町という架空の町です。",
+      "before": "舞台はガチャガチャ角町という架空の町です。",
+      "before_hit": false,
+      "after": "舞台は風霞町という架空の町です。",
+      "after_hit": true
+    },
+    {
+      "category": "創作固有名詞",
+      "written": "緋月",
+      "reading": "ひづき",
+      "sentence": "緋月の一人称は俺に統一してください。",
+      "before": "日好きの1人翔は俺に統一してください。",
+      "before_hit": false,
+      "after": "緋月の1人翔は俺に統一してください。",
+      "after_hit": true
+    },
+    {
+      "category": "創作固有名詞",
+      "written": "朔夜",
+      "reading": "さくや",
+      "sentence": "朔夜の登場シーンを少し削ります。",
+      "before": "借家の登場シーンを少し削ります。",
+      "before_hit": false,
+      "after": "朔夜の登場シーンを少し削ります。",
+      "after_hit": true
+    },
+    {
+      "category": "創作固有名詞",
+      "written": "燈火寮",
+      "reading": "とうかりょう",
+      "sentence": "燈火寮の描写が章ごとにぶれています。",
+      "before": "等価量の描写が章ごとにぶれています。",
+      "before_hit": false,
+      "after": "燈火寮の描写が章ごとにぶれています。",
+      "after_hit": true
+    },
+    {
+      "category": "創作固有名詞",
+      "written": "白鷺ヶ原",
+      "reading": "しらさぎがはら",
+      "sentence": "白鷺ヶ原の決戦の章を見てください。",
+      "before": "しらさぎが原の決戦のショーを見てください。",
+      "before_hit": false,
+      "after": "白鷺ヶ原の決戦のショーを見てください。",
+      "after_hit": true
+    },
+    {
+      "category": "創作固有名詞",
+      "written": "黎明社",
+      "reading": "れいめいしゃ",
+      "sentence": "版元は黎明社に決まりました。",
+      "before": "版元晴夢者に決まりました。",
+      "before_hit": false,
+      "after": "版元黎明社に決まりました。",
+      "after_hit": true
+    },
+    {
+      "category": "創作固有名詞",
+      "written": "月白",
+      "reading": "つきしろ",
+      "sentence": "月白という名前の猫が出てきます。",
+      "before": "月城という名前の猫が出てきます。",
+      "before_hit": false,
+      "after": "月白という名前の猫が出てきます。",
+      "after_hit": true
+    },
+    {
+      "category": "創作固有名詞",
+      "written": "宵坂",
+      "reading": "よいさか",
+      "sentence": "宵坂先生の担当は私です。",
+      "before": "良い坂先生の担当は私です。",
+      "before_hit": false,
+      "after": "宵坂先生の担当は私です。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "念校",
+      "reading": "ねんこう",
+      "sentence": "念校を出してもらえますか。",
+      "before": "年功を出してもらえますか。",
+      "before_hit": false,
+      "after": "念校を出してもらえますか。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "責了",
+      "reading": "せきりょう",
+      "sentence": "この章は責了で構いません。",
+      "before": "この賞は席料で構いません。",
+      "before_hit": false,
+      "after": "この賞は責了で構いません。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "初校",
+      "reading": "しょこう",
+      "sentence": "初校の赤字を反映してください。",
+      "before": "初稿の赤字を反映してください。",
+      "before_hit": false,
+      "after": "初校の赤字を反映してください。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "トルツメ",
+      "reading": "とるつめ",
+      "sentence": "ここは一行トルツメでお願いします。",
+      "before": "ここは1行取る詰めでお願いします。",
+      "before_hit": false,
+      "after": "ここは1行トルツメでお願いします。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "約物",
+      "reading": "やくもの",
+      "sentence": "約物の使い方を統一しましょう。",
+      "before": "役物の使い方を統一しましょう。",
+      "before_hit": false,
+      "after": "約物の使い方を統一しましょう。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "ゲラ",
+      "reading": "げら",
+      "sentence": "ゲラを印刷して持ってきてください。",
+      "before": "げらを印刷して持ってきてください。",
+      "before_hit": false,
+      "after": "ゲラを印刷して持ってきてください。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "朱字",
+      "reading": "しゅじ",
+      "sentence": "朱字の入れ方を説明します。",
+      "before": "主人の入れ方を説明します。",
+      "before_hit": false,
+      "after": "朱字の入れ方を説明します。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "素読み",
+      "reading": "すよみ",
+      "sentence": "まずは素読みで誤字を拾います。",
+      "before": "まずは水曜日で誤字を拾います。",
+      "before_hit": false,
+      "after": "まずは素読みで誤字を拾います。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "赤入れ",
+      "reading": "あかいれ",
+      "sentence": "赤入れの作業をお願いします。",
+      "before": "赤入れの作業をお願いします。",
+      "before_hit": true,
+      "after": "赤入れの作業をお願いします。",
+      "after_hit": true
+    },
+    {
+      "category": "出版・校正用語",
+      "written": "版面",
+      "reading": "はんづら",
+      "sentence": "版面の余白を少し広げます。",
+      "before": "版面の余白を少し広げます。",
+      "before_hit": true,
+      "after": "版面の余白を少し広げます。",
+      "after_hit": true
+    }
+  ]
+}
