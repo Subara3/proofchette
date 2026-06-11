@@ -63,9 +63,11 @@ def proofread():
         return jsonify({"error": "指示が空です。"}), 400
 
     style = (data.get("style") or "auto").strip()
+    history = data.get("history") or []
 
     try:
-        result = claude_proofreader.proofread(manuscript, instruction, style=style)
+        result = claude_proofreader.proofread(
+            manuscript, instruction, style=style, history=history)
     except Exception as e:  # noqa: BLE001  叩き台なのでまとめて拾う
         return jsonify({"error": f"校正案の生成に失敗しました: {e}"}), 502
 

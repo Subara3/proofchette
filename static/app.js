@@ -161,6 +161,7 @@ function resetReviewUI() {
   if (ttsActive) stopTTS();
   currentEdits = [];
   genQueue.length = 0;
+  exchangeHistory.length = 0;
   editsEl.innerHTML = "";
   editsHead.classList.add("hidden");
   summaryEl.classList.add("hidden");
@@ -588,6 +589,9 @@ async function sendAudio(blob) {
 // 未採用の案は消さず、新しい案を上に積む。
 const genQueue = [];
 let generating = false;
+// 直前のやりとり。「いや、その字は学校の校」のような言い直しを
+// Claude が解釈できるよう、直近3回ぶんの指示と案を一緒に送る。
+const exchangeHistory = [];
 
 function enqueueProofread(instruction) {
   if (!instruction) return;
@@ -616,11 +620,19 @@ async function processQueue() {
     const res = await fetch("/api/proofread", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ manuscript, instruction, style: currentStyle }),
+      body: JSON.stringify({
+        manuscript, instruction, style: currentStyle,
+        history: exchangeHistory.slice(-3),
+      }),
     });
     const data = await res.json();
     if (!res.ok) { showToast(data.error || "生成に失敗しました。"); return; }
     renderResult(data);
+    exchangeHistory.push({
+      instruction,
+      edits: (data.edits || []).map((e) => ({ before: e.before, after: e.after })),
+    });
+    if (exchangeHistory.length > 3) exchangeHistory.shift();
   } catch (e) {
     showToast("通信エラー: " + e);
   } finally {
