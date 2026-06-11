@@ -15,3 +15,7 @@ experiments/video/
 
 # Zenn記事ドラフト（公開はZenn側で）
 zenn-article.md
+
+# 試用動画の素材・中間生成物（公開はZenn/動画サイト側で）
+video_assets/
+試用動画台本*.txt
